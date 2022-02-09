@@ -5,9 +5,9 @@ const Board = () => {
   const gameboardArray = ["", "", "", "", "", "", "", "", ""];
 
   return (
-    <div>
+    <div className={css.grid}>
       {gameboardArray.map((square) => {
-        return <div className={css.square}>square</div>;
+        return <div value={square}className={css.square}></div>;
       })}
     </div>
   );

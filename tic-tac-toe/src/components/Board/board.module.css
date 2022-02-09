@@ -1,4 +1,17 @@
+
+.grid{
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 50vw;;
+  min-height: 70vh;
+  margin: 0 auto;
+
+}
+
 .square {
-  border: 1px solid black;
-  width: 1em;
+ border: 1px black solid;
+ padding:70px;
+
+
 }
