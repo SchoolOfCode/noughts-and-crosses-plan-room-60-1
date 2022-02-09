@@ -1,9 +1,9 @@
 import React from 'react'
 import css from "./Square.module.css"
 
-const Square = ({value , makeAmove}) => {
+const Square = ({index, value , makeAmove}) => {
     return (
-        <div  value ={value} className={css.square}  onClick={makeAmove}>
+        <div key={index} value ={value} className={css.square}  onClick={makeAmove}>
            {value} 
         </div>
     )
